@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace exercicio1 {
+namespace Exercicio1 {
     class Program {
         static void Main(string[] args) {
             retangulo valor;
 
             valor = new retangulo();
 
-            valor.l = double.Parse(Console.ReadLine());
-            valor.h = double.Parse(Console.ReadLine());
+            valor.width = double.Parse(Console.ReadLine());
+            valor.height = double.Parse(Console.ReadLine());
 
             Console.WriteLine(valor);
 
