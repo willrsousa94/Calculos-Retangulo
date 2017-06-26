@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace exercicio1 {
+namespace Exercicio1 {
     class retangulo {
-        public double h;
-        public double l;
+        public double heigth;
+        public double width;
 
         public double area() {
-            return h * l;
+            return heigth * width;
         }
 
         public double perimetro() {
-            return 2 * (h + l);
+            return 2 * (heigth + width);
         }
 
         public double diagonal() {
-            return Math.Sqrt((h * h) + (l * l));
+            return Math.Sqrt((heigth * heigth) + (width * width));
         }
 
         public override string ToString() {
